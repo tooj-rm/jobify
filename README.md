@@ -1,0 +1,1 @@
+Ce projet s’appuie sur une formation Udemy utilisant la stack MERN. Je l’ai adapté dans le but de me familiariser avec Tailwind CSS ainsi qu’avec les principes des architectures clean et hexagonale, en apportant des améliorations axées sur la structure, la lisibilité et la maintenabilité du code.
