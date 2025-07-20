@@ -8,7 +8,7 @@ const Error = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-[100vh]">
       {
-        // @ts-ignore
+        // @ts-expect-error type unknown
         (error.status === 404) ? (
           <>
             <img src={img} alt="not found" className="max-w-[600px] max-h-[300px] mb-[2rem]"/>

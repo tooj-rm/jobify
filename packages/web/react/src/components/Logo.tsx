@@ -1,8 +1,8 @@
-import logo from '~/assets/images/logo.svg'
+import logo from '~/assets/images/logo.svg';
 
-const Logo = () => {
+const Logo = ({ className = '' }: { className?: string }) => {
   return (
-    <img src={logo} alt="Logo" />
+    <img src={logo} alt="Logo" className={className}/>
   );
 };
 

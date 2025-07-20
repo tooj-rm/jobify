@@ -37,6 +37,10 @@
         border-radius: 0.25rem;
     }
 
+    .form {
+        @apply w-[90vw] max-w-[400px] mx-auto py-7 px-6 border-t-5 border-primary-500 bg-white;
+    }
+
 }
 
 body {
@@ -53,4 +57,8 @@ h2 {
 
 h3 {
     @apply text-[clamp(1.25rem,2.5vw,2.5rem)];
+}
+
+h4 {
+    @apply text-[clamp(1rem,2vw,2rem)];
 }
