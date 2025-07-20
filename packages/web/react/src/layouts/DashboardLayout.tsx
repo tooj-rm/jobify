@@ -30,7 +30,7 @@ const DashboardLayout = () => {
         <BigSidebar/>
         <div>
           <Navbar/>
-          <div className="w-[90vw] mx-auto py-[2rem]">
+          <div className="w-[90vw] md:w-[90%] mx-auto py-[2rem]">
             <Outlet/>
           </div>
         </div>
