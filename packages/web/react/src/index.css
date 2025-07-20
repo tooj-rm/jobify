@@ -46,3 +46,11 @@ body {
 h1 {
     @apply text-[clamp(2rem,5vw,5rem)];
 }
+
+h2 {
+    @apply text-[clamp(1.5rem,3vw,3rem)];
+}
+
+h3 {
+    @apply text-[clamp(1.25rem,2.5vw,2.5rem)];
+}
