@@ -8,7 +8,11 @@ const DashboardLayout = () => {
   const [showSidebar, setShowSidebar] = useState(false);
   const [isDarkTheme, setIsDarkTheme] = useState(false);
 
-  const toggleDarkTheme = () => setIsDarkTheme(!isDarkTheme);
+  const toggleDarkTheme = () => {
+    const theme = !isDarkTheme;
+    setIsDarkTheme(theme);
+    document.body.classList.toggle('dark', theme);
+  }
 
   const toggleSidebar = () => setShowSidebar(!showSidebar);
 

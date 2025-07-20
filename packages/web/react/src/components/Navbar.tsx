@@ -1,5 +1,5 @@
 import { FaAlignLeft } from 'react-icons/fa';
-import { Logo } from '~/components';
+import { Logo, LogoutContainer, ThemeToggle } from '~/components';
 import { useDashboardContext } from '~/contexts';
 
 const Navbar = () => {
@@ -19,7 +19,8 @@ const Navbar = () => {
         <h4 className="hidden md:block">Dashboard</h4>
       </div>
       <div className="flex items-center">
-        toggle/logout
+        <ThemeToggle/>
+        <LogoutContainer/>
       </div>
     </div>
   );
