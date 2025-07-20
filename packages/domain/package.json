@@ -11,7 +11,8 @@
     "build": "rimraf dist && tsc",
     "test": "jest --verbose",
     "test:coverage": "jest --coverage",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "lint": "exit 0"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
