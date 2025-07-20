@@ -18,7 +18,7 @@ const Register = () => {
         <FormRow type="email" name="email"/>
         <FormRow type="password" name="Password"/>
         <SubmitBtn/>
-        <p className="text-center">
+        <p className="text-center my-4">
           Already have an account? <Link to="/login" className="text-primary-500">Login</Link>
         </p>
       </form>
