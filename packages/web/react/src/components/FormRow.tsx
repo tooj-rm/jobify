@@ -11,7 +11,7 @@ const FormRow = ({ name, labelTxt, type }: Props) => {
         htmlFor={name}
         className="mb-[0.75rem] capitalize"
       >
-        {labelTxt || name}
+        {labelTxt ?? name}
       </label>
       <input
         type={type}

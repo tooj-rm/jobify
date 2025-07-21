@@ -1,7 +1,7 @@
 import { Link, useRouteError } from 'react-router';
 import img from '~/assets/images/not-found.svg';
 
-const Error = () => {
+const ErrorPage = () => {
   const error = useRouteError();
   console.log(error);
 
@@ -24,4 +24,4 @@ const Error = () => {
   );
 };
 
-export default Error;
+export default ErrorPage;
