@@ -10,7 +10,7 @@ const BigSidebar = () => {
       { 'ml-0': !showSidebar },
       'transition-[margin-left] duration-300 ease-in-out'
     )}>
-      <div className="h-screen w-[250px] bg-white">
+      <div className="h-screen w-[250px] bg-white dark:bg-dark-secondary">
         <header className="flex items-center justify-center h-[6rem]">
           <Logo/>
         </header>

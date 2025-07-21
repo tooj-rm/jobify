@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
     --color-primary-50: #e0fcff;
@@ -11,6 +12,9 @@
     --color-primary-700: #0e7c86;
     --color-primary-800: #0a6c74;
     --color-primary-900: #044e54;
+
+    --color-dark: #333;
+    --color-dark-secondary: #3f3f3f;
 
     --color-grey-50: #f8fafc;
     --color-grey-100: #f1f5f9;
@@ -38,13 +42,14 @@
     }
 
     .form {
-        @apply w-[90vw] max-w-[400px] mx-auto py-7 px-6 border-t-5 border-primary-500 bg-white;
+        @apply w-[90vw] max-w-[400px] mx-auto py-7 px-6 border-t-5 border-primary-500 bg-white dark:bg-dark-secondary;
+        border-radius: 0.25rem;
     }
 
 }
 
 body {
-    @apply bg-grey-50;
+    @apply bg-grey-50 dark:bg-dark dark:text-grey-300;
 }
 
 h1 {

@@ -11,7 +11,7 @@ const SmallSidebar = () => {
       'fixed inset-0 flex md:hidden items-center justify-center bg-black/80 opacity-0',
       { 'opacity-100 z-99': showSidebar }
     )}>
-      <div className="relative flex items-center flex-col h-[95vh] w-[90vw] py-20 px-10 rounded-[0.25rem] bg-white">
+      <div className="relative flex items-center flex-col h-[95vh] w-[90vw] py-20 px-10 rounded-[0.25rem] bg-white dark:bg-dark-secondary">
         <button
           className="absolute top-[10px] left-[10px] text-[2rem] text-red-dark cursor-pointer"
           onClick={toggleSidebar}>

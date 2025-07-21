@@ -6,7 +6,7 @@ const Navbar = () => {
   const { toggleSidebar } = useDashboardContext();
 
   return (
-    <div className="flex md:sticky md:top-0 items-center justify-between h-[6rem] px-8 bg-white">
+    <div className="flex md:sticky md:top-0 items-center justify-between h-[6rem] px-8 bg-white dark:bg-dark-secondary">
       <button
         type="button"
         className="text-[1.75rem] text-primary-500 cursor-pointer"
